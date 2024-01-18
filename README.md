@@ -15,19 +15,23 @@ Hey LinkedIn folks! 👋 I'm thrilled to introduce a JavaScript function that si
 ## How to Use
 
 1. **Clone the Repository:**
+
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/BrunoBianchi/Quantidade-De-Palavras.git
    ```
 
 2. **Navigate to the Project Directory:**
-    ```bash
-   cd your-repo
+
+   ```bash
+   cd Quantidade-De-Palavras
    ```
 
 3. **Run the Function:**
-    ```bash
-   node index.js
+   ```bash
+   npm start
    ```
+
+Now just access http://localhost:3000 to see the most 30 common words. 
 
 **Explore the Results:**
 Find the processed JSON file in the ./resultado/ directory.
@@ -39,4 +43,3 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 ## License
 
 This project is licensed under the MIT License.
-

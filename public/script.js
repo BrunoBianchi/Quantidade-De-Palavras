@@ -1,18 +1,13 @@
-// Fetch the JSON data from the file
 fetch("./resultado.json")
   .then((response) => response.json())
   .then((jsonData) => {
-    // Extract words and their frequencies
     const entries = Object.entries(jsonData[0]);
 
-    // Sort entries in descending order based on the qnt property
     const sortedEntries = entries.sort((a, b) => b[1].qnt - a[1].qnt);
 
-    // Extract sorted words and frequencies
     const words = sortedEntries.slice(0, 30).map((entry) => entry[0]);
     const frequencies = sortedEntries.map((entry) => entry[1].qnt);
 
-    // Create a bar chart using Chart.js
     const ctx = document.getElementById("wordFrequencyChart").getContext("2d");
 
     new Chart(ctx, {
@@ -33,8 +28,8 @@ fetch("./resultado.json")
         scales: {
           x: {
             ticks: {
-              autoSkip: false, // Prevents auto-skipping of x-axis labels
-              maxRotation: 45, // Rotates x-axis labels for better readability
+              autoSkip: false, 
+              maxRotation: 45, 
               minRotation: 45,
             },
           },
