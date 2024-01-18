@@ -17,3 +17,26 @@ Hey LinkedIn folks! 👋 I'm thrilled to introduce a JavaScript function that si
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/your-username/your-repo.git
+   ```
+
+2. **Navigate to the Project Directory:**
+ ```bash
+cd your-repo
+```
+
+3. **Run the Function:**
+ ```bash
+node index.js
+```
+
+**Explore the Results:**
+Find the processed JSON file in the ./resultado/ directory.
+
+## Contributions
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## License
+
+This project is licensed under the MIT License.
+
