@@ -20,14 +20,14 @@ Hey LinkedIn folks! 👋 I'm thrilled to introduce a JavaScript function that si
    ```
 
 2. **Navigate to the Project Directory:**
- ```bash
-cd your-repo
-```
+    ```bash
+   cd your-repo
+   ```
 
 3. **Run the Function:**
- ```bash
-node index.js
-```
+    ```bash
+   node index.js
+   ```
 
 **Explore the Results:**
 Find the processed JSON file in the ./resultado/ directory.
